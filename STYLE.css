@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container header h1 {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 50px;
+}
+.container header nav {
+    text-align: center;
+}
+nav a:link   {
+    color: #B7F6EA;
+    text-decoration: none;
+}
+nav a:hover  {
+    color: #016888;
+    text-decoration: line-through;
+}
+.heroimg   {
+    height: 250px;
+    background-image: url(pexels-oleg-magni-1792072.jpg);
+    background-position: center -166px;
+    background-size: cover;
+    border-radius: 41px;
+}
+.article h3 {
+    background-color: #51E6FF;
+}
+article h3 {
+    background-color: rgba(207,207,207,1.00);
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 29px;
+    padding-bottom: 0px;
+    line-height: 40px;
+}
+.container footer {
+    height: 100px;
+    background-image: url(pexels-steve-johnson-1704119.jpg);
+    background-size: cover;
+    background-position: 17% top;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+}
